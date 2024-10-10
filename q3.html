@@ -1,17 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Question 3</title>
-    <!-- 
-Write an article using semantic markup, header, footer, main and section. In the article compare and contrast old fashioned typesetting with desktop pubishing, html and css.
-Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
-Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
-    -->
-        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3 - Article</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        header {
+            background-color: blue;
+            color: white;
+            font-weight: 400;
+        }
+
+        header strong {
+            font-weight: 600;
+        }
+
+        footer {
+            background-color: green;
+            color: white;
+            font-weight: 400;
+        }
+
+        footer strong {
+            font-weight: 600;
+        }
+
+        main {
+            background-color: palegoldenrod; 
+            color: black;
+            font-weight: 400;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <h1><strong>Typesetting</strong> compared to <strong>Desktop Publishing</strong></h1>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <h2>Old Fashioned Typesetting</h2>
+                <p>Typesetting is the process of arranging text for things like books or websites. It involves organizing letters and symbols so its easy to read. They use things metals like lead to create it.</p>
+            </section>
+
+            <section>
+                <h2>Desktop Publishing</h2>
+                <p>Desktop publsihing makes it easier to use images and texts. With the usage of computers, it allows you to make designs easier to make. With this you can use different colours, fonts, styles that was harder and more money.</p>
+            </section>
+
+            <section>
+                <h2>HTML and CSS in Modern Web Design</h2>
+                <p>HTML and CSS are used simply to make websites. It allows you to create menus and add photos a lot eaiser and instead of physically printing it, you can just virtually print it and preview on google.</p>
+            </section>
+
+            <section>
+                <h2>Comparison</h2>
+                <p>Old typesetting and desktop publishing are mainly for printing things like books or posters. Desktop publishing made this faster and more flexible, but both still deal with fixed layouts. HTML and CSS, used for websites, are different because they work in the digital world. Web design allows for content that can change and update instantly.</p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Ishan Sharma</p>
+    </footer>
 </body>
 
 </html>
